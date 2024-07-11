@@ -1,0 +1,84 @@
+{
+    "competence_developpement_web": {
+      "html": [
+        "les différentes balises",
+        "construction d’une page header footer main…"
+      ],
+      "css": [
+        "BEM (Block Element Modifier)",
+        "class, id",
+        "grid, flexbox",
+        "responsive",
+        "Pseudo-classes et pseudo-éléments (hover, focus, before, after)",
+        "Organisation des fichiers CSS",
+        "bootstrap/tailwind/Sass"
+      ],
+      "javascript": [
+        "Types de données (string, number, boolean, null, undefined, object)",
+        "Variables (var, let, const)",
+        "Opérateurs (arithmétiques, de comparaison, logiques, ternaires)",
+        " (if, else, switch, for, while, do...while)",
+        "Sélectionner des éléments (getElementById, querySelector, querySelectorAll)",
+        "Modifier le contenu et les attributs (textContent, innerHTML, setAttribute)",
+        "Manipuler les classes (classList.add, classList.remove, classList.toggle)",
+        "Écouter et gérer les événements (addEventListener, removeEventListener)",
+        "Comprendre les événements du DOM (click, submit, load, etc.)",
+        "Tableaux ( manipulation avec des méthodes comme push, pop, map, filter, reduce)",
+        "Objets ( accès aux propriétés, méthodes)",
+        "Boucles et itérations (for, for...of, for...in, while)"
+      ],
+      "php": [],
+      "wordpress": [
+        "Installation de WordPress sur un serveur local ou distant.",
+        "Création et gestion des articles et des pages",
+        "advanced custom field ",
+        "bloc réutilisable",
+        "Installation et activation de thèmes",
+        "thème enfant",
+        "Attribution des rôles et des permissions (administrateur, éditeur...).",
+        "Elementor,woocommerce",
+        "shortcode woocommerce",
+        "modification via le code, copie du fichier du thème dans thème enfant, customisation ",
+        "securité espace admin",
+        "config base de données"
+
+      ],
+      "figma": [
+        "Création de maquettes ",
+        "Utilisation de composants et de styles réutilisables"
+      ]
+    },
+    "competence_pedagogique": {
+        "preparation_du_cour": [
+            "identifier les objectifs d'apprentissage. Quels sont les compétences et les connaissances que les apprenants doivent acquérir à la fin du cours",
+            "du plus simple au plus complexe",
+            "création de ‘exercice exemple création de page web",
+            "J'inclus des activités interactives comme des quiz, des discussions en groupe et des travaux pratiques collaboratifs pour encourager l'engagement et la participation",
+            "Je mets à jour le contenu du cours et les supports pédagogiques en fonction des retours et des nouvelles tendances ou technologies.",
+            "Je collecte du feedback des apprenants à la fin du cours à l'aide de questionnaires de satisfaction."
+          ],
+      "cour": [
+        "powerpoint",
+        "gestion de groupe",
+        "à l’écoute",
+        "patience",
+        "empathique",
+        "J'envoie des instructions claires aux participants sur la façon de se connecter à la session, les règles de participation, et tout matériel nécessaire.",
+        "tester connection des apprenants",
+        "Je présente les règles de participation, comme lever la main pour poser des questions, utiliser le chat pour des commentaires, et rester en sourdine quand on ne parle pas pour éviter les bruits de fond.",
+        "gestion du temps",
+        "être positif/conseil"
+      ]
+  
+    },
+    "motivation": {
+      "motiv":[
+          "passionné par le développement web, je code 3h à 5h par jour ",
+           "ancien animateur périscolaire préparer animer des groupe de différent âge ( 3 à 12 ans ) jeux sport science art",
+           " futur formateur bénévole ( html css javascript ) pour KONEXIO 2h/semaine en présentielle en septembre 2024 tous les jeudi de 19h à 21h."
+
+      ]
+    }
+  
+  }
+  

@@ -53,13 +53,13 @@ const Home = () => {
 
   const handleLinkClick = (e, id) => {
     e.preventDefault();
-    setShowModal(false); // Close the modal immediately
+    setShowModal(false); 
     setTimeout(() => {
       const element = document.getElementById(id);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
-    }, 300); // Delay to allow the modal to close properly
+    }, 300); /
   };
 
   const renderSection = (dataObject, sectionTitle, sectionId) => (
@@ -136,7 +136,7 @@ J’ai une expérience d’auto-entrepreneur. J’ai travaillé avec des particu
 </ul>
 <div className='flex w-full justify-around pt-10 '>
     <button type='button' className='p-3 w-30 shadow-md btn border hover:bg-slate-800 hover:text-gray-100'> <a href='/cv.pdf' target='_blank'>CV</a></button>
-    <button type='button' className='p-3 w-30 shadow-md btn border hover:bg-slate-800 hover:text-gray-100'> <a href='https://pixell.varascundo.com/' target='_blank'>portfolio</a></button>
+    <button type='button' className='p-3 w-30 shadow-md btn border hover:bg-slate-800 hover:text-gray-100'> <a rel='noreferrer' href='https://pixell.varascundo.com/' target='_blank'>portfolio</a></button>
 </div>
 
 
@@ -161,7 +161,7 @@ J’ai une expérience d’auto-entrepreneur. J’ai travaillé avec des particu
               ))}
             </ul>
           ) : (
-            <p>Pas de résultats trouvés</p>
+            <p>les données json </p>
           )}
         </Modal.Body>
         <Modal.Footer>
@@ -172,7 +172,7 @@ J’ai une expérience d’auto-entrepreneur. J’ai travaillé avec des particu
       </Modal>
     <footer className='m-10 border relative p-3'>
         <p>Page realisé avec reactjs bootstrap et tailwind et fichier Json</p>
-        <p> lien du code de la page : <a href='#' target='_blank' className='text-red-400'>ici</a> </p>
+        <p> lien du code de la page : <a href='https://github.com/cundovar/presentation/blob/main/src/home.js'rel='noreferrer' target='_blank' className='text-red-400'>ici</a> </p>
         <p>Bonne journée !!</p>
     <div className='absolute border bottom-0 right-0'>
         <button type='button' className='btn'>

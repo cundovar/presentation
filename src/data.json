@@ -27,7 +27,7 @@
         "Objets ( accès aux propriétés, méthodes)",
         "Boucles et itérations (for, for...of, for...in, while)"
       ],
-      "php": [],
+      "php": ["PHP 7.4"],
       "wordpress": [
         "Installation de WordPress sur un serveur local ou distant.",
         "Création et gestion des articles et des pages",
